@@ -4,15 +4,21 @@
     background-color: #1F2937;
     color: white;
     display:flex;
-    justify-content: center;
-    align-items: center;
     flex-direction:column;
+    padding-left: 80px;
+    padding-right:80px;
+}
+
+.footer {
+
+        align-items: center;
 }
 
 .awesome {
     font-size: 48px;
     font-weight:900;
     color: #f9faf8;
+    
 }
 
 .sub1 {
@@ -22,6 +28,7 @@
 
 .top {
     display:flex;
+    justify-content:space-between;
 }
 
 .footer {
@@ -40,6 +47,8 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
 
 }
 .square {
@@ -49,6 +58,8 @@
 .quote {
     background-color: #e5e7eb;
     padding: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .bluebox {
@@ -62,3 +73,22 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+
+a {
+    text-decoration: none;
+    color:white;
+    margin: 0 15px;
+}
+
+.links {
+    flex-grow:1;
+    text-align: right;
+    justify-content: space-around;
+   
+}
+
+.logo {
+   flex-grow:1;
+}
+
+
